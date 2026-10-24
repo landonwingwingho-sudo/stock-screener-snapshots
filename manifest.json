@@ -1,0 +1,440 @@
+{
+ "assets": {
+  "db": {
+   "id": "db-8e3c9d79dd614dd6-20261024T000905-bc51.sqlite.gz",
+   "name": "db-8e3c9d79dd614dd6-20261024T000905-bc51.sqlite.gz",
+   "raw_size": 194760704,
+   "sha256": "c8a7a2542c6aef68ead05ce70d63b8dc754245818a0e32b99a77dad53b3feaf7",
+   "size": 21108836
+  },
+  "map_market": {
+   "id": "map_market-20261024T000905-bc51.json.gz",
+   "name": "map_market-20261024T000905-bc51.json.gz",
+   "raw_size": 0,
+   "sha256": "cda14419be8ba5a66904735cb2e82f7287141a4f66b53b98f8911aa1a424b242",
+   "size": 102226
+  },
+  "map_opportunity": {
+   "id": "map_opportunity-20261024T000905-bc51.json.gz",
+   "name": "map_opportunity-20261024T000905-bc51.json.gz",
+   "raw_size": 0,
+   "sha256": "6216ea4fd6c6c9f89e39d11e20167ff90b978b98a57fdb27edf250f5593bdd69",
+   "size": 62870
+  },
+  "map_sp500": {
+   "id": "map_sp500-20261024T000905-bc51.json.gz",
+   "name": "map_sp500-20261024T000905-bc51.json.gz",
+   "raw_size": 0,
+   "sha256": "478384fa8fc691793cf222a0be0b94d1891bf7acba684f844e8ce89192bd2985",
+   "size": 33350
+  },
+  "peer_medians": {
+   "id": "peer_medians-20261024T000905-bc51.json.gz",
+   "mtime": 1792799642.6424491,
+   "name": "peer_medians-20261024T000905-bc51.json.gz",
+   "raw_size": 72556,
+   "sha256": "baeb1fc3b54ce1a418af66fea34ed41b0cdfae2a9e6f43cad46b3d2e1bd85cbd",
+   "size": 28703,
+   "window": [
+    "CY2020",
+    "CY2025"
+   ]
+  }
+ },
+ "code_commit": "85aeca01bbd2adc72135c698edafe3ae8dd2899a",
+ "eligible_count": 255,
+ "files": [
+  {
+   "bytes": 21108836,
+   "name": "db-8e3c9d79dd614dd6-20261024T000905-bc51.sqlite.gz",
+   "sha256": "c8a7a2542c6aef68ead05ce70d63b8dc754245818a0e32b99a77dad53b3feaf7"
+  },
+  {
+   "bytes": 102226,
+   "name": "map_market-20261024T000905-bc51.json.gz",
+   "sha256": "cda14419be8ba5a66904735cb2e82f7287141a4f66b53b98f8911aa1a424b242"
+  },
+  {
+   "bytes": 62870,
+   "name": "map_opportunity-20261024T000905-bc51.json.gz",
+   "sha256": "6216ea4fd6c6c9f89e39d11e20167ff90b978b98a57fdb27edf250f5593bdd69"
+  },
+  {
+   "bytes": 33350,
+   "name": "map_sp500-20261024T000905-bc51.json.gz",
+   "sha256": "478384fa8fc691793cf222a0be0b94d1891bf7acba684f844e8ce89192bd2985"
+  },
+  {
+   "bytes": 28703,
+   "name": "peer_medians-20261024T000905-bc51.json.gz",
+   "sha256": "baeb1fc3b54ce1a418af66fea34ed41b0cdfae2a9e6f43cad46b3d2e1bd85cbd"
+  }
+ ],
+ "format": 1,
+ "full_count": 255,
+ "maps": {
+  "market": {
+   "built_at": "2026-10-24T00:08:58.672751Z",
+   "run_id": ""
+  },
+  "opportunity": {
+   "built_at": "2026-10-24T00:08:52.603547Z",
+   "run_id": "8e3c9d79dd614dd6"
+  },
+  "sp500": {
+   "built_at": "2026-10-24T00:08:58.473801Z",
+   "run_id": ""
+  }
+ },
+ "maps_omitted": [],
+ "mirror": {
+  "market_only": true,
+  "sentiment": {
+   "public_names": 583,
+   "public_sets": [
+    "map_sp500 tiles",
+    "kept runs: match, very_close"
+   ],
+   "rows": {
+    "sentiment": 525,
+    "sentiment_daily": 5172,
+    "sentiment_items": 2752
+   },
+   "rule": "public names only"
+  },
+  "source": "snapshot-actions",
+  "tables": [
+   "runs",
+   "results",
+   "scan_snapshots",
+   "screen_temperature",
+   "map_snapshot",
+   "kpi_payload",
+   "kpi_filings",
+   "kpi_crosscheck",
+   "holdings_13f",
+   "holders13f_cursor",
+   "shareholder_yield",
+   "practice_rule_lines",
+   "practice_book_runs",
+   "sentiment",
+   "sentiment_items",
+   "sentiment_daily"
+  ]
+ },
+ "produced_at": "2026-10-24T00:09:05.475903Z",
+ "produced_by": "actions",
+ "published_at": "2026-10-24T00:09:27.604752Z",
+ "quotes": "ok",
+ "results": 4433,
+ "run_finished_at": "2026-10-23T23:53:57.720550Z",
+ "run_id": "8e3c9d79dd614dd6",
+ "run_started_at": "2026-10-23T23:53:40.940079Z",
+ "schema_major": 1,
+ "schema_tables": {
+  "holders13f_cursor": [
+   "cik",
+   "checked_at",
+   "last_accession",
+   "report_date",
+   "rows",
+   "unmapped_rows",
+   "matched_value_share",
+   "quarters"
+  ],
+  "holdings_13f": [
+   "id",
+   "cik",
+   "report_date",
+   "accession",
+   "filed_at",
+   "cusip",
+   "ticker",
+   "name_of_issuer",
+   "shares",
+   "value_usd"
+  ],
+  "kpi_crosscheck": [
+   "id",
+   "ticker",
+   "metric",
+   "period",
+   "source_a",
+   "source_b",
+   "value_a",
+   "value_b",
+   "diff_pct",
+   "found_at",
+   "resolved_at"
+  ],
+  "kpi_filings": [
+   "accession",
+   "ticker",
+   "form",
+   "period_end",
+   "filed",
+   "source",
+   "facts_kept",
+   "bytes",
+   "parse_ms",
+   "rss_peak_mb",
+   "fetched_at"
+  ],
+  "kpi_payload": [
+   "ticker",
+   "cik",
+   "schema_version",
+   "payload",
+   "newest_accession",
+   "newest_filed",
+   "source",
+   "facts_z",
+   "discovery",
+   "built_at"
+  ],
+  "map_snapshot": [
+   "scope",
+   "as_of",
+   "market_status",
+   "next_trade_date",
+   "quote_as_of_session",
+   "taxonomy",
+   "source",
+   "totals",
+   "path",
+   "bytes"
+  ],
+  "practice_book_runs": [
+   "run_date",
+   "run_id",
+   "applied_at",
+   "match_tickers",
+   "spy_close",
+   "entered",
+   "exited"
+  ],
+  "practice_rule_lines": [
+   "id",
+   "ticker",
+   "entry_run_id",
+   "entry_date",
+   "entry_price",
+   "entry_value",
+   "shares",
+   "spy_entry",
+   "spy_shares",
+   "rejected_streak",
+   "last_price",
+   "last_date",
+   "exit_date",
+   "exit_price",
+   "exit_reason",
+   "spy_exit"
+  ],
+  "results": [
+   "id",
+   "run_id",
+   "ticker",
+   "name",
+   "sector",
+   "industry",
+   "status",
+   "blocking_gate_count",
+   "metrics",
+   "report"
+  ],
+  "runs": [
+   "id",
+   "status",
+   "universe",
+   "universe_source",
+   "params",
+   "preset_id",
+   "started_at",
+   "finished_at",
+   "total",
+   "completed",
+   "summary",
+   "error",
+   "ticker_list",
+   "cursor_index",
+   "resume_count",
+   "last_ticker",
+   "cancel_requested",
+   "config_snapshot",
+   "finalized_at"
+  ],
+  "scan_snapshots": [
+   "id",
+   "run_id",
+   "run_date",
+   "ticker",
+   "tier",
+   "price",
+   "intrinsic_value",
+   "mos",
+   "blocking_gate_count",
+   "gate_states",
+   "sector",
+   "r1m",
+   "r3m",
+   "r6m",
+   "r12m",
+   "spy1m",
+   "spy3m",
+   "spy6m",
+   "spy12m",
+   "priced_through"
+  ],
+  "screen_temperature": [
+   "run_id",
+   "sector",
+   "run_date",
+   "screened",
+   "match",
+   "very_close",
+   "median_mos_full",
+   "top_fail_gate",
+   "rulebook_rev",
+   "top_fail_count"
+  ],
+  "sentiment": [
+   "ticker",
+   "score",
+   "raw",
+   "volume",
+   "trend",
+   "source_counts",
+   "source_scores",
+   "source_fetched",
+   "sources_skipped",
+   "state",
+   "scorer",
+   "as_of",
+   "newest_item_at"
+  ],
+  "sentiment_daily": [
+   "ticker",
+   "date",
+   "n",
+   "score",
+   "pos",
+   "neg",
+   "top",
+   "recent",
+   "state",
+   "updated_at",
+   "sum_w",
+   "sum_wp",
+   "by_source",
+   "seen_keys"
+  ],
+  "sentiment_items": [
+   "ticker",
+   "role",
+   "item_key",
+   "source",
+   "kind",
+   "title",
+   "url",
+   "publisher",
+   "published_at",
+   "polarity",
+   "item_score",
+   "weight",
+   "hits",
+   "provider_label",
+   "as_of"
+  ],
+  "shareholder_yield": [
+   "ticker",
+   "cik",
+   "period",
+   "period_end",
+   "dividends",
+   "buybacks_gross",
+   "issuance",
+   "net_buybacks",
+   "debt_repaid",
+   "debt_issued",
+   "net_debt_paydown",
+   "cfo",
+   "capex",
+   "fcf",
+   "coverage",
+   "missing_tags",
+   "fetched_at"
+  ]
+ },
+ "sources": {
+  "bls": {
+   "latency_ms": 633.2,
+   "ok": false
+  },
+  "cnbc": {
+   "latency_ms": 845.0,
+   "ok": true
+  },
+  "edgar": {
+   "latency_ms": 782.9,
+   "ok": true
+  },
+  "eia": {
+   "latency_ms": 791.4,
+   "ok": true
+  },
+  "federal_reserve": {
+   "latency_ms": 583.1,
+   "ok": true
+  },
+  "finviz": {
+   "latency_ms": 514.3,
+   "ok": false
+  },
+  "google_news": {
+   "latency_ms": 603.7,
+   "ok": true
+  },
+  "marketwatch": {
+   "latency_ms": 594.3,
+   "ok": true
+  },
+  "nasdaq": {
+   "latency_ms": 1696.3,
+   "ok": true
+  },
+  "nasdaq_analyst": {
+   "latency_ms": 1654.7,
+   "ok": true
+  },
+  "nasdaq_market_info": {
+   "latency_ms": 3785.0,
+   "ok": true
+  },
+  "sec_current": {
+   "latency_ms": 765.1,
+   "ok": true
+  },
+  "sec_fulltext": {
+   "latency_ms": 1161.8,
+   "ok": true
+  },
+  "wikipedia": {
+   "latency_ms": 601.7,
+   "ok": true
+  },
+  "yahoo": {
+   "latency_ms": 853.1,
+   "ok": false
+  }
+ },
+ "stage2": {
+  "budget_min": 20.0,
+  "eligible": 255,
+  "promoted": 255,
+  "timeboxed": false
+ },
+ "total": 4433,
+ "user_data_at": "",
+ "user_rows_at": ""
+}
